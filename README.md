@@ -28,33 +28,37 @@ To add yourself to the webring:
 
 Here's what to add to your personal website in order to be part of the webring functionality:
 
+**Note:** Make sure to customize the style to your liking! The examples below are just starting points.
+
 **HTML:**
 
 ```html
-<div style="display: flex; align-items: center; gap: 8px;">
-  <a href="https://se30webring.com?from=https://your-site.com&dir=prev">←</a>
-  <a href="https://se30webring.com?from=https://your-site.com" target="_blank">
-    <img src="https://se30webring.com/assets/icon.svg" alt="SE '30 Webring" style="width: 24px; height: 24px;" />
+<div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <a href="https://se30webring.com?from=https://your-site.com&dir=prev" style="text-decoration: none; color: #FFCE1A;">←</a>
+  <a href="https://se30webring.com?from=https://your-site.com" target="_blank" style="text-decoration: none;">
+    <img src="https://se30webring.com/assets/icon-yellow.svg" alt="SE '30 Webring" style="width: 24px; height: 24px;" />
   </a>
-  <a href="https://your-hub-url.com?from=https://your-site.com&dir=next">→</a>
+  <a href="https://se30webring.com?from=https://your-site.com&dir=next" style="text-decoration: none; color: #FFCE1A;">→</a>
 </div>
 <!-- Make sure to replace 'your-site.com' with your actual personal site URL -->
+<!-- Note: You can use icon-yellow.svg (default) or icon.svg (black) depending on your site's color scheme -->
 ```
 
 **JSX:**
 
 ```jsx
-<div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-  <a href={`https://se30webring.com?from=${window.location.href}&dir=prev`}>←</a>
-  <a href={`https://se30webring.com?from=${window.location.href}`} target="_blank">
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+  <a href={`https://se30webring.com?from=${window.location.href}&dir=prev`} style={{ textDecoration: 'none', color: '#FFCE1A' }}>←</a>
+  <a href={`https://se30webring.com?from=${window.location.href}`} target="_blank" style={{ textDecoration: 'none' }}>
     <img 
-      src="https://se30webring.com/assets/icon.svg" 
+      src="https://se30webring.com/assets/icon-yellow.svg" 
       alt="SE '30 Webring" 
       style={{ width: '24px', height: '24px', opacity: 0.8 }} 
     />
   </a>
-  <a href={`https://se30webring.com?from=${window.location.href}&dir=next`}>→</a>
+  <a href={`https://se30webring.com?from=${window.location.href}&dir=next`} style={{ textDecoration: 'none', color: '#FFCE1A' }}>→</a>
 </div>
+// Note: You can use icon-yellow.svg (default) or icon.svg (black) depending on your site's color scheme
 ```
 
 **How it works:**
