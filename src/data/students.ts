@@ -11,6 +11,11 @@ export const students: Student[] = [
     website: "https://www.rickytang.dev",
     pfp: "assets/pfps/ricky-tang.jpg",
   },
+  {
+    name: "Hamza Ammar",
+    website: "https://hamzaammar.ca",
+    pfp: "assets/pfps/hamza-ammar.png"
+  }
   // Add your name right above this comment!
   // Example:
   // {
