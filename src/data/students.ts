@@ -16,6 +16,11 @@ export const students: Student[] = [
     website: "https://hamzaammar.ca",
     pfp: "assets/pfps/hamza-ammar.png"
   }
+  {
+    name: "Qinkai Li",
+    website: "https://batteryspecial.vercel.app/projects",
+    pfp: "assets/pfps/qinkai-li.jpg" // Do not include 'public/' in the path!
+  }
   // Add your name right above this comment!
   // Example:
   // {
