@@ -2,7 +2,7 @@
 
 <img src="https://se30webring.com/assets/icon-yellow.svg" alt="SE '30 Webring Icon" width="64" height="64" />
 
-A webring for Software Engineering class of 2030 students at the University of Waterloo.
+A webring for Software Engineering class of 2030 students at the [University of Waterloo](https://uwaterloo.ca/).
 
 ## What's a Webring?
 
