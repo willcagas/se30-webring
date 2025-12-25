@@ -38,7 +38,7 @@ export function JoinExpandable() {
             .
           </p>
           <p className="text-sm">
-            Please visit{' '}
+            Please visit and follow the instructions on the README.md file at{' '}
             <a
               href={EXTERNAL_URLS.WEBRING_REPO}
               className="text-candlelight hover:text-old-gold underline transition-colors"
@@ -47,7 +47,7 @@ export function JoinExpandable() {
             >
               this repo
             </a>{' '}
-            on how to join the webring and add the webring widget to your website.
+            to join the webring and add the webring widget to your website.
           </p>
         </div>
       )}
