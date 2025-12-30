@@ -114,7 +114,7 @@ export function StudentList({ students, onProfileClick }: StudentListProps) {
               rel="noopener noreferrer"
               className="text-candlelight hover:text-old-gold transition-colors text-base underline break-all sm:break-normal sm:truncate sm:ml-4 sm:max-w-[60%] inline-flex items-center gap-1.5"
             >
-              <span className="break-all sm:break-normal sm:truncate">{student.website}</span>
+              <span className="break-all sm:break-normal sm:truncate">{student.website.replace(/^https?:\/\//, '')}</span>
                 <ExternalLinkIcon />
               </a>
             ) : (
