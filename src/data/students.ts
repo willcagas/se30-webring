@@ -31,6 +31,11 @@ export const students: Student[] = [
     website: "https://sarahyoo.vercel.app",
     pfp: "assets/pfps/sarah-yoo.jpg" 
   },
+  {
+    name: "Akishai Sabaratnasarma",
+    website: "https://akishai18.github.io",
+    pfp: "assets/pfps/Akishai-Sabaratnasarma.jpg" 
+  },
   // Add your name right above this comment!
   // Example:
   // {
