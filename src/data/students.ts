@@ -36,6 +36,11 @@ export const students: Student[] = [
     website: "https://akishai18.github.io",
     pfp: "assets/pfps/Akishai-Sabaratnasarma.jpg" 
   },
+  {
+  name: "Gabriel Faigan",
+  website: "https://faigan.com",
+  pfp: "assets/pfps/gabriel-faigan.jpeg"
+  }
   // Add your name right above this comment!
   // Example:
   // {
