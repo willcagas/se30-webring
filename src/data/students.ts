@@ -40,6 +40,11 @@ export const students: Student[] = [
   name: "Gabriel Faigan",
   website: "https://faigan.com",
   pfp: "assets/pfps/gabriel-faigan.jpeg"
+  },
+  {
+  name: "Kevin Yan",
+  website: "https://kevinyan.page",
+  pfp: "assets/pfps/kevin-yan.png" // Do not include 'public/' in the path!
   }
   // Add your name right above this comment!
   // Example:
