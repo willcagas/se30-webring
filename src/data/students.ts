@@ -44,7 +44,12 @@ export const students: Student[] = [
   {
   name: "Kevin Yan",
   website: "https://kevinyan.page",
-  pfp: "assets/pfps/kevin-yan.png" // Do not include 'public/' in the path!
+  pfp: "assets/pfps/kevin-yan.png" 
+  },
+  {
+    name: "Dongwan (Jamie) Seoh",
+    website: "https://dwseoh.com",
+    pfp:"assets/pfps/dongwan-jamie-seoh"
   }
   // Add your name right above this comment!
   // Example:
