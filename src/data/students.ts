@@ -53,7 +53,7 @@ export const students: Student[] = [
   },
   {
     name: "Abdullah Rajput",
-    website: "https://abrj7.github.io/",
+    website: "https://abdullahr.com/",
     pfp:"assets/pfps/abdullah-rajput.jpeg"
   }
   // Add your name right above this comment!
