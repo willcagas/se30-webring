@@ -21,3 +21,32 @@ html {
   box-sizing: border-box;
 }
 
+.app-shell {
+  position: relative;
+  background-color: #181818;
+}
+
+.bg-gradient-soft {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(165deg, #151515 0%, #181818 50%, #121212 100%);
+}
+
+.panel-soft {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(20, 20, 20, 0.72);
+  backdrop-filter: blur(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}

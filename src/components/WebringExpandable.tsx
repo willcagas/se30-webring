@@ -7,7 +7,7 @@ export function WebringExpandable() {
     <div>
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="hover:text-candlelight transition-colors underline text-left"
+        className="hover:text-candlelight transition-colors underline text-left underline-offset-4"
         aria-expanded={isExpanded}
       >
         What's a webring?

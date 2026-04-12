@@ -80,7 +80,9 @@ export function App() {
   }
 
   return (
-    <div className="min-h-screen w-full bg-[#181818] flex flex-col sm:flex-row">
+    <div className="app-shell min-h-screen w-full flex flex-col sm:flex-row">
+      <div className="bg-gradient-soft" aria-hidden="true" />
+
       <Sidebar
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
@@ -89,7 +91,7 @@ export function App() {
 
       <MobileHeader showNetwork={showNetwork} onToggleNetwork={handleToggleNetwork} />
 
-      <main className="flex-1 sm:ml-[500px] overflow-y-auto">
+      <main className="flex-1 sm:ml-[500px] overflow-y-auto relative z-10">
         <div className="p-4 sm:p-6 pt-24 sm:pt-6">
           <AboutSection
             searchQuery={searchQuery}
@@ -97,25 +99,27 @@ export function App() {
           />
 
           <div className="hidden sm:block mb-8">
-            <div className="h-[400px] border border-white/10">
+            <div className="h-[400px] panel-soft">
               <NetworkDiagram students={filteredStudents} onNodeClick={handleNodeClick} />
             </div>
           </div>
 
-          <StudentList students={filteredStudents} onProfileClick={handleNodeClick} />
+          <div className="panel-soft p-1 sm:p-2">
+            <StudentList students={filteredStudents} onProfileClick={handleNodeClick} />
+          </div>
 
           {/* Mobile Information Sections and Widget */}
           <div className="sm:hidden mt-8 pb-4">
-            <div className="text-sm text-white/60 mb-6">
+            <div className="panel-soft p-4 text-sm text-white/60 mb-6">
               <div className="flex flex-col gap-3 mb-6">
                 <WebringExpandable />
                 <JoinExpandable />
               </div>
-            </div>
-            <div className="flex justify-center">
-              <WebRingWidget
-                sites={students.map((s) => s.website).filter((url): url is string => url !== undefined)}
-              />
+              <div className="flex justify-center">
+                <WebRingWidget
+                  sites={students.map((s) => s.website).filter((url): url is string => url !== undefined)}
+                />
+              </div>
             </div>
           </div>
         </div>

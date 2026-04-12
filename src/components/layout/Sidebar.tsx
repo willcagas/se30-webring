@@ -18,7 +18,7 @@ function getWebsiteUrls(students: Student[]): string[] {
 
 export function Sidebar({ searchQuery, onSearchChange, students }: SidebarProps) {
   return (
-    <aside className="hidden sm:flex fixed left-0 top-0 h-full w-[500px] flex-col border-r border-white/10 p-6 overflow-y-auto">
+    <aside className="hidden sm:flex fixed left-0 top-0 h-full w-[500px] flex-col border-r border-white/10 bg-black/35 backdrop-blur-sm p-6 overflow-y-auto z-20">
       <div className="mb-8">
         <a
           href={EXTERNAL_URLS.WEBRING_REPO}
@@ -29,7 +29,7 @@ export function Sidebar({ searchQuery, onSearchChange, students }: SidebarProps)
         >
           <Logo className="h-12 w-12" />
         </a>
-        <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4">{UI_TEXT.APP_TITLE}</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4 tracking-tight">{UI_TEXT.APP_TITLE}</h1>
 
         <div className="mb-6">
           <SearchBar value={searchQuery} onChange={onSearchChange} />

@@ -61,7 +61,7 @@ export function StudentModal({ student, onClose }: StudentModalProps) {
     >
       <div
         ref={modalRef}
-        className="bg-[#181818] border border-white/20 rounded-lg max-w-md w-full p-4 sm:p-6 shadow-2xl max-h-[90vh] overflow-y-auto"
+        className="bg-[#181818] border border-white/20 rounded-xl max-w-md w-full p-4 sm:p-6 shadow-2xl max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-end mb-2 sm:mb-4">

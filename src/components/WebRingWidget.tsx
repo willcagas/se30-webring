@@ -48,7 +48,7 @@ export function WebRingWidget({ sites, currentSite, webringHubUrl }: WebRingWidg
   };
 
   return (
-    <div className="flex items-center gap-4 py-2">
+    <div className="flex items-center gap-4 py-2 px-3 rounded-xl border border-white/10 bg-black/25">
       {navigation.prev && (
         <a
           href={buildNavUrl('prev')}

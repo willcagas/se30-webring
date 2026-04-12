@@ -58,14 +58,14 @@ export function StudentList({ students, onProfileClick }: StudentListProps) {
       {students.map((student, index) => (
         <div
           key={index}
-          className="py-1.5 px-3 sm:py-2 sm:px-4 hover:bg-white/5 transition-colors rounded-sm group border-b border-white/5"
+          className="py-1.5 px-3 sm:py-2 sm:px-4 hover:bg-white/5 transition-all rounded-lg group border-b border-white/5"
         >
           {/* Mobile Layout: [PFP][Name] ................ [Icon] */}
           <div className="flex sm:hidden items-center justify-between gap-2">
             <div className="flex items-center gap-2.5 min-w-0 flex-1">
               <button
                 onClick={() => onProfileClick?.(student)}
-                className="focus:outline-none focus:ring-2 focus:ring-candlelight focus:ring-offset-2 focus:ring-offset-[#181818] rounded-full transition-transform hover:scale-105 flex-shrink-0"
+                className="focus:outline-none focus:ring-2 focus:ring-candlelight focus:ring-offset-2 focus:ring-offset-[#181818] rounded-full transition-transform duration-200 hover:scale-[1.03] flex-shrink-0"
                 aria-label={`View ${student.name}'s profile`}
               >
                 <ProfileImage
@@ -96,7 +96,7 @@ export function StudentList({ students, onProfileClick }: StudentListProps) {
             <div className="flex items-center gap-4">
               <button
                 onClick={() => onProfileClick?.(student)}
-                className="focus:outline-none focus:ring-2 focus:ring-candlelight focus:ring-offset-2 focus:ring-offset-[#181818] rounded-full transition-transform hover:scale-105"
+                className="focus:outline-none focus:ring-2 focus:ring-candlelight focus:ring-offset-2 focus:ring-offset-[#181818] rounded-full transition-transform duration-200 hover:scale-[1.03]"
                 aria-label={`View ${student.name}'s profile`}
               >
                 <ProfileImage

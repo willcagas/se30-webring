@@ -19,11 +19,11 @@ export function NetworkOverlay({
 
   return (
     <div
-      className="sm:hidden fixed inset-0 z-40 bg-black/70 flex items-center justify-center p-6"
+      className="sm:hidden fixed inset-0 z-40 bg-black/75 backdrop-blur-sm flex items-center justify-center p-6"
       onClick={onClose}
     >
       <div
-        className="bg-[#181818] w-full max-w-4xl h-[70vh] p-6 border border-white/10 flex flex-col"
+        className="bg-[#181818] w-full max-w-4xl h-[70vh] p-6 border border-white/10 rounded-xl flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between items-center mb-4 flex-shrink-0">
@@ -35,7 +35,7 @@ export function NetworkOverlay({
             ✕
           </button>
         </div>
-        <div className="flex-1 min-h-0 overflow-hidden border border-white/10">
+        <div className="flex-1 min-h-0 overflow-hidden border border-white/10 rounded-lg">
           <NetworkDiagram students={students} onNodeClick={onNodeClick} />
         </div>
       </div>

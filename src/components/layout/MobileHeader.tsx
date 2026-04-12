@@ -56,7 +56,7 @@ function CloseIcon({ className = 'w-5 h-5' }: { className?: string }) {
 export function MobileHeader({ showNetwork, onToggleNetwork }: MobileHeaderProps) {
   return (
     <>
-      <div className="sm:hidden fixed top-0 left-0 right-0 z-50 bg-[#181818] border-b border-white/10 px-4 py-3 flex items-center justify-between">
+      <div className="sm:hidden fixed top-0 left-0 right-0 z-50 bg-[#151515]/95 backdrop-blur-sm border-b border-white/10 px-4 py-3 flex items-center justify-between">
         <a
           href={EXTERNAL_URLS.WEBRING_REPO}
           target="_blank"

@@ -9,7 +9,7 @@ interface AboutSectionProps {
 export function AboutSection({ searchQuery, onSearchChange }: AboutSectionProps) {
   return (
     <div className="sm:hidden text-white/90">
-      <h1 className="text-3xl font-bold text-white mb-4">{UI_TEXT.APP_TITLE}</h1>
+      <h1 className="text-3xl font-bold text-white mb-4 tracking-tight">{UI_TEXT.APP_TITLE}</h1>
 
       <p className="text-base leading-relaxed mb-4">
         {UI_TEXT.ABOUT_DESCRIPTION}{' '}
