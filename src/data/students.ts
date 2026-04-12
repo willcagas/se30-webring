@@ -19,42 +19,42 @@ export const students: Student[] = [
   {
     name: "Qinkai Li",
     website: "https://batteryspecial.vercel.app",
-    pfp: "assets/pfps/qinkai-li.jpg" 
+    pfp: "assets/pfps/qinkai-li.jpg"
   },
   {
     name: "William Yang",
     website: "https://williamyang.ca",
-    pfp: "assets/pfps/william-yang.png" 
+    pfp: "assets/pfps/william-yang.png"
   },
   {
     name: "Sarah Yoo",
     website: "https://sarahyoo.vercel.app",
-    pfp: "assets/pfps/sarah-yoo.jpg" 
+    pfp: "assets/pfps/sarah-yoo.jpg"
   },
   {
     name: "Akishai Sabaratnasarma",
     website: "https://akishai18.github.io",
-    pfp: "assets/pfps/Akishai-Sabaratnasarma.jpg" 
+    pfp: "assets/pfps/Akishai-Sabaratnasarma.jpg"
   },
   {
-  name: "Gabriel Faigan",
-  website: "https://faigan.com",
-  pfp: "assets/pfps/gabriel-faigan.jpeg"
+    name: "Gabriel Faigan",
+    website: "https://faigan.com",
+    pfp: "assets/pfps/gabriel-faigan.jpeg"
   },
   {
-  name: "Kevin Yan",
-  website: "https://kevinyan.page",
-  pfp: "assets/pfps/kevin-yan.png" 
+    name: "Kevin Yan",
+    website: "https://kevinyan.page",
+    pfp: "assets/pfps/kevin-yan.png"
   },
   {
     name: "Dongwan (Jamie) Seoh",
     website: "https://dwseoh.com",
-    pfp:"assets/pfps/dongwan-jamie-seoh.jpg"
+    pfp: "assets/pfps/dongwan-jamie-seoh.jpg"
   },
   {
     name: "Abdullah Rajput",
-    website: "https://abdullahr.com/",
-    pfp:"assets/pfps/abdullah-rajput.jpeg"
+    website: "https://abdullahr.com",
+    pfp: "assets/pfps/abdullah-rajput.jpeg"
   },
   {
     name: "Sean Yang",
