@@ -61,6 +61,11 @@ export const students: Student[] = [
     website: "https://seanyang.me",
     pfp: "assets/pfps/sean-yang.jpg"
   },
+  {
+    name: "Sicheng Ouyang",
+    website: "https://sicheng.dev",
+    pfp: "assets/pfps/sicheng-ouyang.png",
+  },
   // Add your name right above this comment!
   // Example:
   // {
