@@ -49,12 +49,22 @@ export const students: Student[] = [
   {
     name: "Dongwan (Jamie) Seoh",
     website: "https://dwseoh.com",
-    pfp: "assets/pfps/dongwan-jamie-seoh.jpg"
+    pfp:"assets/pfps/dongwan-jamie-seoh.jpg"
   },
   {
     name: "Abdullah Rajput",
-    website: "https://abrj7.github.io",
-    pfp: "assets/pfps/abdullah-rajput.jpeg"
+    website: "https://abdullahr.com/",
+    pfp:"assets/pfps/abdullah-rajput.jpeg"
+  },
+  {
+    name: "Sean Yang",
+    website: "https://seanyang.me",
+    pfp: "assets/pfps/sean-yang.jpg"
+  },
+  {
+    name: "Sicheng Ouyang",
+    website: "https://sicheng.dev",
+    pfp: "assets/pfps/sicheng-ouyang.png",
   },
   // Add your name right above this comment!
   // Example:
