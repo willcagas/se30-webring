@@ -66,6 +66,11 @@ export const students: Student[] = [
     website: "https://sicheng.dev",
     pfp: "assets/pfps/sicheng-ouyang.png",
   },
+  {
+    name: "Mohan Dong",
+    website: "https://www.powerium.io",
+    pfp: "assets/pfps/mohan-dong.png"
+  }
   // Add your name right above this comment!
   // Example:
   // {
