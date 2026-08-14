@@ -58,7 +58,7 @@ export const students: Student[] = [
   },
   {
     name: "Sean Yang",
-    website: "https://seanyang.me",
+    website: "https://seanyang.ca",
     pfp: "assets/pfps/sean-yang.jpg"
   },
   {
