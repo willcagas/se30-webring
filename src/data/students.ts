@@ -18,7 +18,7 @@ export const students: Student[] = [
   },
   {
     name: "Qinkai Li",
-    website: "https://batteryspecial.vercel.app",
+    website: "https://batteryspecial.xyz",
     pfp: "assets/pfps/qinkai-li.jpg"
   },
   {
