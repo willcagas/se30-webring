@@ -80,6 +80,11 @@ export const students: Student[] = [
     name: "Sam Chen",
     website: "https://ofts-cqm.vercel.app",
     pfp: "assets/pfps/sam-chen.png"
+  },
+  {
+    name: "Ario Barin Ostovary",
+    website: "https://ariobarin.com",
+    pfp: "assets/pfps/ario-barin.png"
   }
   // Add your name right above this comment!
   // Example:
